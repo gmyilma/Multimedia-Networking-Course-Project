@@ -1,0 +1,8 @@
+{
+  "db": {
+    "host": "localhost",
+    "db": "museum",
+    "userName": "root",
+    "pass": "root"
+  }
+}

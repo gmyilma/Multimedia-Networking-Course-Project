@@ -1,0 +1,35 @@
+<script>
+    	$().ready(function{
+    		$("form").validate({
+    			rules : {
+    				fullName : "required"
+    				email : {
+    					required : true,
+    					email : true
+    				}
+    				password : {
+    					required : true,
+    					minlength : 6
+    				}
+    				cPassword : {
+    					required : true,
+    					minlength : 6,
+    					equalTo : "#password"
+    				}
+    			},
+    			messages : {
+    				fullName : "Full name can't be empty. Please provide your full name",
+    				email : "Please enter a valid email address!",
+    				password : {
+    					required : "Please provide a password!",
+    					minlength: "Your password must be at least 6 characters long"
+    				}
+    				cPassword : {
+    					required : "Please provide a password",
+    					minlength : "Your password must be at least 6 characters long",
+    					equalTo : "Please enter the same password as above"
+    				}
+    			}
+    		});
+    	});
+    </script>
