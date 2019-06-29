@@ -1,4 +1,3 @@
-# Multimedia-Networking-Course-Project
 
 Part One Web Application Setup 
 Install MAMP with php version 5 (php 5.5 is the recommended one).
